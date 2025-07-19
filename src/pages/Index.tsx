@@ -125,7 +125,10 @@ const Index = () => {
         
         <div className="grid md:grid-cols-2 gap-8">
           {sections.map((section, index) => (
-            <Card key={index} className={`group cursor-pointer border-0 shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-3 bg-gradient-to-br ${section.gradient} overflow-hidden`}>
+            <Card key={index} className={`group cursor-pointer border-0 shadow-lg hover:shadow-xl transition-all duration-500 hover:-translate-y-3 bg-gradient-to-br ${section.gradient} overflow-hidden`} onClick={() => {
+              const routes = ['/articles', '/techniques', '/meditation', '/exercises'];
+              window.location.href = routes[index];
+            }}>
               <CardHeader className="space-y-4 p-8">
                 <div className="flex items-start gap-4">
                   <div className="w-14 h-14 bg-white/80 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
