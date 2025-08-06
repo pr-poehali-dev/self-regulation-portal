@@ -89,7 +89,7 @@ const Index = () => {
       {/* Benefits Section */}
       <section className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="lg:text-4xl font-bold text-gray-900 mb-4 text-5xl">
             Что вы получите
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
