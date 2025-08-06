@@ -33,7 +33,7 @@ const Index = () => {
   const benefits = [
     {
       icon: "Smile",
-      title: "Эмоциональный баланс",
+      title: "Внутренняя гармония",
       description: "Научитесь управлять своими эмоциями"
     },
     {
