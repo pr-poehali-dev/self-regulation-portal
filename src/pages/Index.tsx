@@ -92,9 +92,7 @@ const Index = () => {
           <h2 className="lg:text-4xl font-bold text-gray-900 mb-4 text-5xl">
             Что вы получите
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Наши методы помогут вам развить навыки эмоционального интеллекта и научиться справляться с жизненными вызовами
-          </p>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">Разрушение ваши и их стереотипов, прадигм</p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
