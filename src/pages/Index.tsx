@@ -134,7 +134,7 @@ const Index = () => {
                   </div>
                   <div className="flex-1">
                     <CardTitle className="text-2xl font-semibold text-gray-900 group-hover:text-primary transition-colors duration-300">
-                      {section.title}
+                      Законы мироздания. Хаос и порядок.
                     </CardTitle>
                   </div>
                 </div>
